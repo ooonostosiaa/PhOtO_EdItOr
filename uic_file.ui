@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>900</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>KotiKot</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qradialgradient(spread:pad, cx:0.5, cy:0.5, radius:0.5, fx:0.5, fy:0.5, stop:0.246305 rgba(235, 197, 240, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="pushButton_red">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>10</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(14, 29, 41);</string>
+    </property>
+    <property name="text">
+     <string>RED</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>10</y>
+      <width>740</width>
+      <height>455</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>orig.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_green">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;.AppleSystemUIFont&quot;;
+color: rgb(13, 23, 35);</string>
+    </property>
+    <property name="text">
+     <string>GREEN</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_blue">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>110</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(11, 13, 31)</string>
+    </property>
+    <property name="text">
+     <string>BLUE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_all">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>160</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(11, 13, 31)</string>
+    </property>
+    <property name="text">
+     <string>ALL</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_bright">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>210</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(11, 13, 31)</string>
+    </property>
+    <property name="text">
+     <string>BRIGHT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_left">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>260</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(11, 13, 31)</string>
+    </property>
+    <property name="text">
+     <string>LEFT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_right">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>320</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(11, 13, 31)</string>
+    </property>
+    <property name="text">
+     <string>RIGHT</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_negative">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>380</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(11, 13, 31)</string>
+    </property>
+    <property name="text">
+     <string>NEGATIVE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_wb">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>440</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(11, 13, 31)</string>
+    </property>
+    <property name="text">
+     <string>WB</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_gray">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>490</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(11, 13, 31)</string>
+    </property>
+    <property name="text">
+     <string>GRAY</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_sepia">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>490</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:rgb(11, 13, 31)</string>
+    </property>
+    <property name="text">
+     <string>SEPIA</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_contrast">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>490</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;.AppleSystemUIFont&quot;;
+color: rrgb(12, 18, 32)</string>
+    </property>
+    <property name="text">
+     <string>CONTRAST</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>490</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;.AppleSystemUIFont&quot;;
+color: rrgb(12, 18, 32)</string>
+    </property>
+    <property name="text">
+     <string>SAVE</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>490</y>
+      <width>113</width>
+      <height>32</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 13pt &quot;.AppleSystemUIFont&quot;;
+color: rrgb(12, 18, 32)</string>
+    </property>
+    <property name="text">
+     <string>DOWNLOAD</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
